@@ -16,6 +16,7 @@ namespace kalkulator
                 int menuOption = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("4. Wyjscie");
                 Console.WriteLine("1. add");
+                Console.WriteLine("5. Diff");
                 Console.Clear();
                 if (menuOption == 0)
                 {
